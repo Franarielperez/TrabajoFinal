@@ -280,7 +280,14 @@ input{
     text-decoration-style: solid;
     margin: 0 40px;
 }
-
+.bi-box-arrow-in-up-left {
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+}
 footer{
     background-color: rgb(33, 33, 33);
     color: white;
@@ -288,4 +295,6 @@ footer{
     padding: 6vh;
     }
 
+    @media screen and (max-width: 800px) {
 
+    }
